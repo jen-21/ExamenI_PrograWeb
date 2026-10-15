@@ -3,9 +3,91 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Cotizaciones</title>
 </head>
 <body>
+     <header>
+        <nav class="menu">
+            <h2>Deinsa Honduras</h2>
+            <a href="index.html">Inicio</a>
+            <a href="catalogo.html">Catalogo</a>
+            <a href="ofertas.html">Ofertas del Mes</a>
+            <a href="cotizaciones.html">Cotizaciones</a>
+            <a href="contacto.html">Contacto</a>
+
+        </nav>
+    </header>
+    <main>
+        <section class="seccion-bienvenida">
+            <h2>Cotizacion</h2>
+            <p>Puedes hacer tus cotizaciones aqui.</p>
+                
+                    
+        </section>    
+         <section class="calculadora">
+            <h2>Solicitud de presupuesto</h2>
+            <p>¡Aprovecha nuestro descuento del 8%, con ordenes mayores de 5 articulos </p>
+            <form id="formulario-cotizacion">
+                <label for="cantidad">
+                    cantidad a comprar:
+                </label>
+                <input type="number" id="cantidad" min="1" value="1" required>
+                <label for="herramientas">
+                    Seleccione las opciones:
+                </label>
+                <select id="opciones" required>
+                    <option value="100000">
+                        kit de materiales - 100000L
+
+                    </option>
+                    <option value="5000">
+                        kit de herramientas - 5000L
+
+                    </option>
+                    <option value="6000">
+                        kit de seguridad - 6000L
+
+                    </option>
+                </select>
+                <label for="ciudad">
+                    ciudad de entrega:
+                </label>
+                <select id="ciudad" required>
+                    <option value="500">
+                        Tegucigalpa -flete
+
+                    </option>
+                    <option value="1500">
+                        San Pedro Sula - Flete
+
+                    </option>
+                    <option value="2500">
+                        Otras regiones - Flete
+
+                    </option>
+                </select>
+                <button type="submit">Calcular Presupuesto</button>
+            </form>
+
+        </section>
+
+       
+    </main>
+    <footer>
+        <h3>Contacto</h3>
+        <p>Boulevar del norte, san pedro sula, Honduras.</p>
+        <p>Telefono: 2551-XXXX</p>
+        <p>Anillo periferico, Tegucigalpa, Honduras.</p>
+        <p>Telefono: 2235-XXXX</p>
+
+        <h3>Redes Sociales</h3>
+        <a href="https://www.whasatpp.com/" ><img src="img/whatsa.png" alt="wha">Whatsapp</a>
+        <a href="https://www.tiktok.com/"><img src="img/tiktok.png" alt="tiktok">Tiktok</a>
+        <a href="https://www.instagram.com/"><img src="img/Instagram.png" alt="insta">instagram</a>
+        <p>@2026 Deinsa</p>
+        
+
+    </footer>
     
 </body>
 </html>
