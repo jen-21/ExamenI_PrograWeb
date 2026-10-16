@@ -4,163 +4,232 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Catalogo</title>
-    <link rel="stylesheet" href="CSS/styles.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-B/GM4XqrwHnWXNOWMbloTmrYXZg10cakYGmpfsR/bbzQ6JAJI4ihuyADKLnBgrCe" crossorigin="anonymous">
-</head>
-<body>
-    <header>
-        <nav class="menu">
-            <h2>Deinsa Honduras</h2>
-            <a href="index.html">Inicio</a>
-            <a href="catalogo.html">Catalogo</a>
-            <a href="ofertas.html">Ofertas del Mes</a>
-            <a href="cotizaciones.html">Cotizaciones</a>
-            <a href="contacto.html">Contacto</a>
 
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+          rel="stylesheet">
+</head>
+
+<body class="bg-light">
+
+    <body>
+    <header>
+        <nav class="menu navbar navbar-expand-lg navbar-dark bg-dark p-3">
+            <div class="container-fluid">
+                <h2 class="navbar-brand mb-0">Deinsa Honduras</h2>
+
+                <div class="navbar-nav">
+                    <a class="nav-link" href="index.html">Inicio</a>
+                    <a class="nav-link" href="catalogo.html">Catalogo</a>
+                    <a class="nav-link" href="ofertas.html">Ofertas del Mes</a>
+                    <a class="nav-link" href="cotizaciones.html">Cotizaciones</a>
+                    <a class="nav-link active" href="contacto.html">Contacto</a>
+                </div>
+            </div>
         </nav>
     </header>
 
     <main>
-            <section class="seccion-bienvenida">
-                    <div>
-                        <h2>Catalago</h2>
-                        <p>Aqui en Diensa encontraras lo mejor
-                        <a href="cotizaciones.html">Cotizar</a>
 
-                    
+        <section class="seccion-bienvenida text-center p-5">
+            <div class="container">
+                <h2 class="display-5 fw-bold">Catalago</h2>
+                <p class="lead">Aqui en Diensa encontraras lo mejor</p>
+                <a href="cotizaciones.html" class="btn btn-primary">Cotizar</a>
+            </div>
+        </section>
+
+        <section class="catalogo-inicio py-5">
+            <div class="contenido-catalogo container">
+
+                <h2 class="text-center mb-4">Nuestro Catalogo</h2>
+
+                <div class="row g-4">
+
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="tarjeta-producto card h-100 shadow-sm p-3">
+                            <img src="img/herramientas.png" class="card-img-top img-fluid" alt="herramientas">
+                            <div class="card-body">
+                                <h3 class="card-title h5">Equipo Industrial</h3>
+                                <p class="card-text">precio: 5000 L</p>
+                                <p class="card-text">Marca: Deinsa</p>
+                            </div>
+                        </div>
                     </div>
 
-            </section>
-            <section class="catalogo-inicio">
-                <div class="contenido-catalogo">
-                        <h2> Nuestro Catalogo</h2>
-                        <div class="tarjeta-producto">
-                            <img src="img/herramientas.png" alt="herramientas">
-                            <h3>Equipo Industrial</h3>
-                            <p>precio: 5000 L</p>
-                            <p>Marca: Deinsa</p>
-                            
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="tarjeta-producto card h-100 shadow-sm p-3">
+                            <img src="img/materiales.jpeg" class="card-img-top img-fluid" alt="materiales">
+                            <div class="card-body">
+                                <h3 class="card-title h5">Materiales Industriales</h3>
+                                <p class="card-text">precio: 100000 L</p>
+                                <p class="card-text">Marca: Deinsa</p>
+                            </div>
                         </div>
-                        <div class="tarjeta-producto">
-                            <img src="img/materiales.jpeg" alt="herramientas">
-                            <h3>Materiales Industriales </h3>
-                            <p>precio: 100000 L</p>
-                            <p>Marca: Deinsa</p>
-                            
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="tarjeta-producto card h-100 shadow-sm p-3">
+                            <img src="img/seguridad.jpeg" class="card-img-top img-fluid" alt="seguridad">
+                            <div class="card-body">
+                                <h3 class="card-title h5">Seguridad Industrial</h3>
+                                <p class="card-text">precio: 6000</p>
+                                <p class="card-text">Marca: Deinsa</p>
+                            </div>
                         </div>
-                        <div class="tarjeta-producto">
-                            <img src="img/seguridad.jpeg" alt="herramientas">
-                            <h3>Seguridad Industrial</h3>
-                            <p>precio: 6000</p>
-                            <p>Marca: Deinsa</p>
-                            
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="tarjeta-producto card h-100 shadow-sm p-3">
+                            <img src="img/herramientas.png" class="card-img-top img-fluid" alt="herramientas">
+                            <div class="card-body">
+                                <h3 class="card-title h5">Herramientas Industriales</h3>
+                                <p class="card-text">precio: 5000</p>
+                                <p class="card-text">Marca: Deinsa</p>
+                            </div>
                         </div>
-                        <div class="tarjeta-producto">
-                            <img src="img/herramientas.png" alt="herramientas">
-                            <h3>Herramientas Industriales</h3>
-                            <p>precio: 5000</p>
-                            <p>Marca: Deinsa</p>
-                            
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="tarjeta-producto card h-100 shadow-sm p-3">
+                            <img src="img/herramientas.png" class="card-img-top img-fluid" alt="herramientas">
+                            <div class="card-body">
+                                <h3 class="card-title h5">Herramientas Industriales</h3>
+                                <p class="card-text">precio: 5000</p>
+                                <p class="card-text">Marca: Deinsa</p>
+                            </div>
                         </div>
-                        <div class="tarjeta-producto">
-                            <img src="img/herramientas.png" alt="herramientas">
-                            <h3>Herramientas Industriales</h3>
-                            <p>precio: 5000</p>
-                            <p>Marca: Deinsa</p>
-                            
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="tarjeta-producto card h-100 shadow-sm p-3">
+                            <img src="img/herramientas.png" class="card-img-top img-fluid" alt="herramientas">
+                            <div class="card-body">
+                                <h3 class="card-title h5">Herramientas Industriales</h3>
+                                <p class="card-text">precio: 5000</p>
+                                <p class="card-text">Marca: Deinsa</p>
+                            </div>
                         </div>
-                        <div class="tarjeta-producto">
-                        <img src="img/herramientas.png" alt="herramientas">
-                            <h3>Herramientas Industriales</h3>
-                            <p>precio: 5000</p>
-                            <p>Marca: Deinsa</p>
-                            
-                        </div>
-                        
+                    </div>
+
+                </div>
             </div>
         </section>
-        <section class="catalogo-inicio">
-            <h2>Ofertas Especiales</h2>
-            <div class="contenido-catalogo">
-                <div class="tarjeta-producto">
-                        <span class="badge-oferta">OFERTA</span>
-                        <img src="img/materiales.jpeg" alt="herramientas">
-                        <h3>Materiales Industriales </h3>
-                        <p>precio: 100000 L</p>
-                        <p>Marca: Deinsa</p>
-                            
-                        
-                </div>
-                <div class="tarjeta-producto">
-                        <span class="badge-oferta">OFERTA</span>
-                        <img src="img/materiales.jpeg" alt="herramientas">
-                        <h3>Materiales Industriales </h3>
-                        <p>precio: 100000 L</p>
-                        <p>Marca: Deinsa</p>
-                            
-                        
-                </div>
-                    
 
-                
+        <section class="catalogo-inicio py-5">
+            <div class="container">
+
+                <h2 class="text-center mb-4">Ofertas Especiales</h2>
+
+                <div class="contenido-catalogo row g-4">
+
+                    <div class="col-12 col-md-6">
+                        <div class="tarjeta-producto card h-100 shadow-sm p-3">
+                            <span class="badge bg-danger align-self-start">OFERTA</span>
+                            <img src="img/materiales.jpeg" class="card-img-top img-fluid mt-2" alt="materiales">
+                            <div class="card-body">
+                                <h3 class="card-title h5">Materiales Industriales</h3>
+                                <p class="card-text">precio: 100000 L</p>
+                                <p class="card-text">Marca: Deinsa</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6">
+                        <div class="tarjeta-producto card h-100 shadow-sm p-3">
+                            <span class="badge bg-danger align-self-start">OFERTA</span>
+                            <img src="img/materiales.jpeg" class="card-img-top img-fluid mt-2" alt="materiales">
+                            <div class="card-body">
+                                <h3 class="card-title h5">Materiales Industriales</h3>
+                                <p class="card-text">precio: 100000 L</p>
+                                <p class="card-text">Marca: Deinsa</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
             </div>
-
         </section>
-        <section class="tabla-comparativa">
-            <h2>Tabla Comparativa de Productos</h2>
-            <table border="1">
-                <tr>
-                    <th>Codigo</th>
-                    <th>Categoria</th>
-                    <th>Producto</th>
-                    <th>Descripcion</th>
-                    <th>Precio</th>
-                </tr>
-                <tr>
-                    <td>H-001</td>
-                    <td>Herramientas Industriales</td>
-                    <td>Taladro</td>
-                    <td>Taladro Electrico</td>
-                    <td> 5000 L</td>
 
+        <section class="tabla-comparativa py-5">
+            <div class="container">
 
+                <h2 class="text-center mb-4">Tabla Comparativa de Productos</h2>
 
-                </tr>
-                
-                <tr>
-                    <td>H-003</td>
-                    <td>Materiales Industriales</td>
-                    <td>Tubo</td>
-                    <td>Tubo PVC/td>
-                    <td> 100 L</td>
-                </tr>
-                 <tr>
-                    <td>H-004</td>
-                    <td>Seguridad Industriales</td>
-                    <td>Guantes</td>
-                    <td>Protector para la manos</td>
-                    <td> 100 L</td>
-                </tr>
+                <div class="table-responsive">
+                    <table class="table table-bordered table-striped table-hover">
+                        <thead class="table-dark">
+                            <tr>
+                                <th>Codigo</th>
+                                <th>Categoria</th>
+                                <th>Producto</th>
+                                <th>Descripcion</th>
+                                <th>Precio</th>
+                            </tr>
+                        </thead>
 
+                        <tbody>
+                            <tr>
+                                <td>H-001</td>
+                                <td>Herramientas Industriales</td>
+                                <td>Taladro</td>
+                                <td>Taladro Electrico</td>
+                                <td>5000 L</td>
+                            </tr>
 
-            </table>
+                            <tr>
+                                <td>H-003</td>
+                                <td>Materiales Industriales</td>
+                                <td>Tubo</td>
+                                <td>Tubo PVC</td>
+                                <td>100 L</td>
+                            </tr>
 
+                            <tr>
+                                <td>H-004</td>
+                                <td>Seguridad Industriales</td>
+                                <td>Guantes</td>
+                                <td>Protector para la manos</td>
+                                <td>100 L</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+            </div>
         </section>
+
     </main>
-    <footer>
-        <h3>Contacto</h3>
-        <p>Boulevar del norte, san pedro sula, Honduras.</p>
-        <p>Telefono: 2551-XXXX</p>
-        <p>Anillo periferico, Tegucigalpa, Honduras.</p>
-        <p>Telefono: 2235-XXXX</p>
 
-        <h3>Redes Sociales</h3>
-        <a href="https://www.whasatpp.com/" ><img src="img/whatsa.png" alt="wha">Whatsapp</a>
-        <a href="https://www.tiktok.com/"><img src="img/tiktok.png" alt="tiktok">Tiktok</a>
-        <a href="https://www.instagram.com/"><img src="img/Instagram.png" alt="insta">instagram</a>
-        <p>@2026 Deinsa</p>
-        
+    <footer class="bg-dark text-white text-center p-4">
+        <div class="container">
 
+            <h3>Contacto</h3>
+            <p>Boulevar del norte, san pedro sula, Honduras.</p>
+            <p>Telefono: 2551-XXXX</p>
+            <p>Anillo periferico, Tegucigalpa, Honduras.</p>
+            <p>Telefono: 2235-XXXX</p>
+
+            <h3 class="mt-4">Redes Sociales</h3>
+
+            <div class="d-flex flex-wrap justify-content-center gap-3">
+                <a href="https://www.whatsapp.com/" class="text-white">
+                    <img src="img/whatsa.png" alt="wha" width="25"> Whatsapp
+                </a>
+
+                <a href="https://www.tiktok.com/" class="text-white">
+                    <img src="img/tiktok.png" alt="tiktok" width="25"> Tiktok
+                </a>
+
+                <a href="https://www.instagram.com/" class="text-white">
+                    <img src="img/Instagram.png" alt="insta" width="25"> instagram
+                </a>
+            </div>
+
+            <p class="mt-4 mb-0">@2026 Deinsa</p>
+
+        </div>
     </footer>
+
 </body>
 </html>
